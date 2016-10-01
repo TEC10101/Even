@@ -8,4 +8,14 @@ It works by taking the input number and counting down 1 at a time, alternating a
 
 Flowchart: https://drive.google.com/file/d/0Bw6ibnXqghl4cXA3RVpQcGlTazQ/view?usp=sharing
 
-By TEC, Copyright 2016
+
+9/30/2016: % operating in JavaScript will easily be able to tell if a number is even by finding out if there is no remainder.  For instance: 20 % 2 would return zero, which then tells that the input 20 is even.
+
+
+
+
+
+
+
+
+By TEC, UnCopyright 2016
