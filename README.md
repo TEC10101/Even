@@ -11,6 +11,7 @@ Flowchart: https://drive.google.com/file/d/0Bw6ibnXqghl4cXA3RVpQcGlTazQ/view?usp
 
 9/30/2016: % operating in JavaScript will easily be able to tell if a number is even by finding out if there is no remainder.  For instance: 20 % 2 would return zero, which then tells that the input 20 is even.
 
+I found the % to be a very easy way to do this!
 
 
 
