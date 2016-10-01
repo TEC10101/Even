@@ -1,7 +1,7 @@
 //EVEN 
 //Use: to find out if a number is even or odd, and then asks the user if they want to run the program again.
-//version 1.0.1 - testing.  Stable.
 
+//var keyboardInput = NaN;
 playNow = true;
 evenStart = 0
 
@@ -13,10 +13,11 @@ do {
 				evenStart++;
 			} else if ( isNaN(keyboardInput) ) {keyboardInput = window.prompt('Please enter a number, nothing else:');
 			}	else if ( keyboardInput <= 0 ) {keyboardInput = window.prompt('The number must be larger than zero:');
-			};
-		} while ( isNaN(keyboardInput) || keyboardInput <= 0 );
+			}; // cannot get return to work: else if ( keyboardInput == null) {return;};
+		//} while ( isNaN(keyboardInput) || keyboardInput <= 0 );
 
 		isODD = ( keyboardInput % 2 );
+		firstRun = false;
 
 		if ( isODD == 0) {
 			
