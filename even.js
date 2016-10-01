@@ -1,7 +1,7 @@
 //EVEN 
 //Use: to find out if a number is even or odd, and then asks the user if they want to run the program again.
+//version 1.0.1 - testing.  Stable.
 
-//var keyboardInput = NaN;
 playNow = true;
 evenStart = 0
 
@@ -16,9 +16,7 @@ do {
 			};
 		} while ( isNaN(keyboardInput) || keyboardInput <= 0 );
 
-		var toBeProcessed = keyboardInput;
-		isODD = ( toBeProcessed % 2 );
-		firstRun = false;
+		isODD = ( keyboardInput % 2 );
 
 		if ( isODD == 0) {
 			
