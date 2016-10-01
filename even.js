@@ -3,7 +3,7 @@
 //version 1.0.1 - testing.  Stable.
 
 playNow = true;
-evenStart = 0
+evenStart = 0;
 
 do {
 
